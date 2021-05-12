@@ -1,0 +1,41 @@
+\documentclass[a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[dutch]{babel}
+\usepackage{amsmath, amssymb}
+\usepackage{physics}
+
+% figure support
+\usepackage{import}
+\usepackage{xifthen}
+\pdfminorversion=7
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+\usepackage{parskip}
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{#1.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1
+
+\title{Title}
+\author{Johan Ribbing \thanks{Thanks to}}
+\date{maj 2021}
+
+\begin{document}
+
+\begin{Assignment 1}
+\maketitle
+\end{titlepage}
+	
+\begin{figure}[]
+	\centering
+	\includegraphics[width=0.8\textwidth]{}
+	\caption{}
+	\label{fig:}
+\end{figure}
+\end{document}
