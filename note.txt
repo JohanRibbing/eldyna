@@ -1,0 +1,7 @@
+1. f = 2.91517. TE
+2. f_stop minskar med ökande bredd. bandbredd ökade när tjockare. c = 0.0685, h = 0.001
+3. 	axial symmetric TM => m = 0
+	hitta f010, f020, f011. se till att 020 störst och f011 = 2 f010.
+	4 lägsta var TM men de dåliga var inte axial sym.
+
+
